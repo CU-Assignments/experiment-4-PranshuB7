@@ -11,7 +11,7 @@ class CardCollection {
     }
 
     public static void findCards(String symbol) {
-        System.out.println("Name: Saksham Sood");
+        System.out.println("Name: Pranshu");
         System.out.println("Cards in '" + symbol + "': " + cardMap.getOrDefault(symbol, new ArrayList<>()));
     }
 
